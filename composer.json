@@ -1,0 +1,24 @@
+{
+2	    "name": "boolive/navigations",
+3	    "type": "library",
+4	    "description": "Package of navigation widgets",
+5	    "keywords": ["boolive","package","widget", "navigation", "menu"],
+6	    "homepage": "http://boolive.ru",
+7	    "license": "MIT",
+8	    "authors": [
+9	        {
+10	            "name": "Vladimir Shestakov",
+11	            "email": "boolive@yandex.ru"
+12	        }
+13	    ],
+14	    "require": {
+15	        "php": ">=5.4.0",
+16	        "boolive/core": "dev-master",
+17	        "boolive/basic": "dev-master"
+18	    },
+19	    "autoload": {
+20	        "psr-4": {
+21	            "": "../.."
+22	        }
+23	    }
+24	}
