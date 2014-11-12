@@ -1,0 +1,17 @@
+{
+    "proto": "/vendor/boolive/basic/widget",
+    "file": "page_numbering.tpl",
+    "logic": true,
+    "properties": {
+        "title": "Постраничная нумерация",
+        "description": "Виджет с номерами страниц для навигации по ним",
+        "show_cnt": {
+            "proto": "/vendor/boolive/basic/number",
+            "value": 10,
+            "properties": {
+                "title": "Сколько страниц показывать",
+                "description": "Количество страниц отображаемых в навигации"
+            }
+        }
+    }
+}
