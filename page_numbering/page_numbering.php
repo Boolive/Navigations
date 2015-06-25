@@ -18,7 +18,7 @@ class page_numbering extends widget
             'REQUEST' => Rule::arrays([
                 'object' => Rule::entity()->required(),
                 'page' => Rule::int()->default(1)->required(),
-                'page_count' => Rule::int()->more(3)->default(3)->required()
+                'page_count' => Rule::int()->more(1)->required()
             ])
         ]);
     }
